@@ -1,0 +1,7 @@
+MAMBA RUL MODEL EVALUATION
+========================================
+Total Test Samples : 3547
+MAE                : 7.3897
+MSE                : 98.7763
+RMSE               : 9.9386
+R2 Score           : 0.9742

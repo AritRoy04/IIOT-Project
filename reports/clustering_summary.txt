@@ -1,0 +1,25 @@
+============================================================
+CLUSTERING SUMMARY
+============================================================
+
+Total Samples : 20631
+
+K-MEANS CLUSTERS
+Cluster 0 : 4056 samples (19.66%)
+Cluster 1 : 7472 samples (36.22%)
+Cluster 2 : 9103 samples (44.12%)
+
+DBSCAN
+Clusters Detected : 2
+Noise Points (-1) : 188
+
+DBSCAN Distribution
+-1 : 188
+0 : 20063
+1 : 380
+
+Observations
+- K-Means grouped the machine data into three operating clusters.
+- DBSCAN detected dense regions and possible anomalies.
+- PCA visualization showed clear cluster separation.
+- Clustering helps understand machine behaviour before prediction.

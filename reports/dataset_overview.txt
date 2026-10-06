@@ -1,0 +1,21 @@
+============================================================
+NASA C-MAPSS DATASET OVERVIEW
+============================================================
+
+Dataset Shape      : (20631, 26)
+Total Records      : 20631
+Total Features     : 26
+
+Total Engines      : 100
+Sensor Columns     : 21
+Setting Columns    : 3
+
+Maximum Lifetime   : 362
+Minimum Lifetime   : 128
+Average Lifetime   : 206.31
+
+Missing Values     : 0
+Duplicate Rows     : 0
+Memory Usage (MB)  : 4.09
+
+DATASET STATUS : READY FOR PREPROCESSING

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large processed datasets
+data/processed/*.npy
+
+# Large ML files
+*.pt
+*.pth
+*.onnx
+
+# Environment/secrets
+.env

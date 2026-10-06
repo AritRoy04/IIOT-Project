@@ -1,0 +1,40 @@
+======================================================================
+EXPLORATORY DATA ANALYSIS (EDA) SUMMARY
+======================================================================
+
+DATASET INFORMATION
+------------------------------
+Dataset Shape           : (20631, 26)
+Total Engines           : 100
+Total Sensors           : 21
+Missing Values          : 0
+Duplicate Rows          : 0
+
+ENGINE LIFETIME
+------------------------------
+Maximum Lifetime        : 362 cycles
+Minimum Lifetime        : 128 cycles
+Average Lifetime        : 206.31 cycles
+
+TOP 5 INFORMATIVE SENSORS
+------------------------------
+sensor_9             Variance = 487.65
+sensor_14            Variance = 363.90
+sensor_4             Variance = 81.01
+sensor_3             Variance = 37.59
+sensor_17            Variance = 2.40
+
+EDA OBSERVATIONS
+------------------------------
+1. The dataset contains no missing values.
+2. No duplicate records were found.
+3. Engine lifetime varies significantly across engines.
+4. Several sensors exhibit much higher variance than others.
+5. Correlation analysis identified strong relationships between multiple sensors.
+6. Boxplots revealed different levels of sensor variability.
+7. Histograms showed the distribution characteristics of informative sensors.
+8. PCA demonstrated that the first two principal components preserve most of the dataset variance and reveal a progression from healthy to near-failure states.
+
+CONCLUSION
+------------------------------
+The NASA C-MAPSS dataset is clean, consistent, and suitable for predictive maintenance research. Exploratory Data Analysis identified informative sensors, revealed engine degradation patterns, and provided statistical insights that will support feature engineering and Remaining Useful Life (RUL) prediction in the next phase.
